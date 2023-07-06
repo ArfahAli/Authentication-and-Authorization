@@ -1,0 +1,49 @@
+.navigation{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background: radial-gradient( lavender,rgb(118, 19, 96));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-left: 100px;
+}
+.navigation div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.navigation div p{
+ font-size: 0.99rem;
+ font-weight: bold;
+ padding: 0 10px;
+}
+.navigation div p span{
+    color: yellow;
+    font-weight: bold;
+}
+.navigationv div p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navigation div i{
+    font-size: 0.99rem;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color:white ;
+    color: black;
+  padding: 10px 12px;
+  border-radius: 50%;
+}

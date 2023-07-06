@@ -1,0 +1,76 @@
+/* 
+
+    /* All product page */
+
+    .row{
+        justify-content: space-between;
+        margin: 100px auto 50px;
+    }
+    .rowProducts {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    select{
+        border: 1px solid rgb(63, 5, 63);
+        padding: 10px;
+    }
+    select:focus{
+        outline: none;
+    }
+   .sub-containerProducts{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 30px;
+   }
+   .ratings  i{
+    color: #ff523b;
+}
+
+
+    /* Page Buttons */
+    .pg-btns span{
+        border: 1px solid black;
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        margin-left: 10px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+
+    }
+    .pg-btns{
+        margin: 70 auto 80px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .pg-btns span:hover{
+        background-color:rgb(245, 186, 232);
+        color: white;
+        transition: 0.5s;
+    }
+
+   .btnBucket{
+    background-color:white;
+    color: black ;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border: 1px solid rgb(63, 5, 63);
+}
+.btnBucket:hover{
+    background-color: lavender ;
+    color:rgb(168, 120, 168) ;
+    transition: 0.4s;
+}
+
+
+  
+
+
+
+

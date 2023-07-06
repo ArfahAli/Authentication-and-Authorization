@@ -1,0 +1,42 @@
+
+.column{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.column:hover{
+    transform: translateY(-5px);
+}
+.column img{
+    width: 100%;
+}
+
+.column h4{
+    padding: 5px;
+    color: #555;
+    font-weight: normal;
+}
+.column p{
+    padding: 5px;
+    font-size: 14px;
+}
+.column h5{
+    padding: 5px;
+
+    font-size: 14px;
+}
+ 
+   .ratings  i{
+    color: #ff523b;
+}
+
+
+
+  
+
+
+
+
+
